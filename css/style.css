@@ -1,0 +1,602 @@
+* {
+    box-sizing: border-box !important;
+}
+
+body {
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow-x: hidden !important;
+}
+
+.frstpic {
+    width: 750px !important;
+}
+
+.blurpic {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    z-index: -1px !important;
+}
+
+@font-face {
+    font-family: Lexend;
+    src: url(../fonts/Lexend-Regular.ttf);
+}
+@font-face {
+    font-family: LexendB;
+    src: url(../fonts/Lexend-Bold.ttf);
+}
+
+
+
+
+
+/* Navbar */ 
+
+
+
+.lnktext {
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    color: #F0F3FD !important;
+    width: 96px !important;
+    height: 34px !important;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 32px;
+    transition: all .4s !important;
+}
+
+.lnktext:hover {
+    color: #1B1C54 !important;
+    box-shadow: 2px 3px 8px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 3px 8px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 8px -1px rgba(0,0,0,0.75);
+}
+
+.lnktext1 {
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    color: #F0F3FD !important;
+    width: 78px !important;
+    height: 34px !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 2px solid rgba(255, 255, 255, 0.3) !important;
+    border-radius: 32px !important;
+    transition: all .4s !important;
+}
+
+.lnktext1:hover {
+    color: #1B1C54 !important;
+    box-shadow: 2px 3px 8px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 3px 8px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 8px -1px rgba(0,0,0,0.75);
+}
+
+.lnktext2 {
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    color: #F0F3FD !important;
+    width: 122px !important;
+    height: 34px !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 2px solid rgba(255, 255, 255, 0.3) !important;
+    border-radius: 32px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    transition: all .4s !important;
+}
+
+.lnktext2:hover {
+    color: #1B1C54 !important;
+    box-shadow: 2px 3px 8px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 3px 8px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 8px -1px rgba(0,0,0,0.75);
+}
+
+.signup {
+    width: 107px !important;
+    height: 46px !important;
+    background-color: #D1FAE5 !important;
+    border-radius: 32px !important;
+    border: none !important;
+    color: #047857 !important;
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    transition: all .4s !important;
+}
+
+.signup:hover {
+    border: 2px solid #047857 !important;
+    background-color: transparent !important;
+    color: #F0F3FD !important;
+}
+
+.lnktext3 {
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    color: #F0F3FD !important;
+    text-align: center !important;
+    transition: all .4s !important;
+}
+
+.lnktext3:hover {
+    color: #1B1C54 !important;
+    background-color: #D9F9E6 !important;
+}
+
+.menuback {
+    margin-top: 10px !important;
+    border: 1px solid #F0F3FD !important;
+    background-color: transparent !important;
+}
+
+
+
+/* Content */
+
+
+.h1-find {
+    font-family: 'LexendB' !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 40px !important;
+    color: #1B1C57 !important;
+    margin-left: 15px !important;
+}
+
+.yourdrm {
+    text-transform: capitalize !important;
+    color: transparent !important;
+    -webkit-text-stroke-width: 1px !important;
+    -webkit-text-stroke-color: #1B1C57 !important;
+}
+
+.p-everything {
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    color: #626687 !important;
+    margin-left: 15px !important;
+}
+
+.searchbox {
+    width: 496px !important;
+    height: 56px !important;
+    background-color: #fff !important;
+    border: 1px solid #E0E3EB !important;
+    border-radius: 32px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    margin-left: 15px !important;
+}
+
+.searchinp {
+    width: 303px !important;
+    height: 22px !important;
+    background-color: transparent !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.searchinp::placeholder {
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    color: #888B97 !important;
+}
+
+.searchbutt {
+    width: 109px !important;
+    height: 48px !important;
+    background-color: #10B981 !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 32px !important;
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    margin-right: 4px !important;
+    transition: all .4s !important;
+}
+
+.searchbutt:hover {
+    background-color: #10996b !important;
+}
+
+.searchbutt:active {
+    background-color: #b6e8d6 !important;
+}
+
+.p-partner {
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    color: #888B97 !important;
+    margin-left: 15px !important;
+}
+
+.partnerbox {
+    margin-left: 15px !important;
+}
+
+.crslbox {
+    position: absolute !important;
+    right: -12px !important;
+    top: 450px !important;
+}
+
+@media screen and (min-width: 1920px) {
+    .frstpic {
+        width: 930px !important;
+    }
+
+    .crslbox {
+        position: absolute !important;
+        top: 580px !important;
+    }
+
+    .h1-find {
+        margin-left: 200px !important;
+    }
+
+    .p-everything {
+        margin-left: 200px !important;
+    }
+
+    .searchbox {
+        margin-left: 200px !important;
+    }
+
+    .p-partner {
+        margin-left: 200px !important;
+    }
+
+    .partnerbox {
+        margin-left: 200px !important;
+    }
+
+    .blurpic {
+        width: 760px !important;
+        height: 560px !important;
+    }
+}
+
+.p-recomend {
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    color: #F59E0B !important;
+
+}
+
+.h4-featured {
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 32px !important;
+    color: #1B1C57 !important;
+    margin-left: 35px !important;
+}
+
+.housebutt {
+    width: 135px !important;
+    height: 52px !important;
+    background-color: transparent !important;
+    border: 1px solid #888B97 !important;
+    border-radius: 32px !important;
+    font-family: 'Lexend' !important;
+    font-style: normal !important ;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    color: #888B97 !important;
+}
+
+.housebutt:focus {
+    background-color: #D1FAE5 !important;
+    color: #10B981 !important;
+    border: none !important;
+}
+
+.housebutt:focus .housesvg path {
+    fill: #10B981 !important;
+}
+
+.villabutt {
+    width: 119px !important;
+    height: 52px !important;
+    background-color: transparent !important;
+    border: 1px solid #888B97 !important;
+    border-radius: 32px !important;
+    font-family: 'Lexend' !important;
+    font-style: normal !important ;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    color: #888B97 !important;
+}
+
+.villabutt:focus {
+    background-color: #D1FAE5 !important;
+    color: #10B981 !important;
+    border: none !important;
+}
+
+.villabutt:focus .housesvg path {
+    fill: #10B981 !important;
+}
+
+.apartmentbutt {
+    width: 175px !important;
+    height: 52px !important;
+    background-color: transparent !important;
+    border: 1px solid #888B97 !important;
+    border-radius: 32px !important;
+    font-family: 'Lexend' !important;
+    font-style: normal !important ;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    color: #888B97 !important;
+}
+
+.apartmentbutt:focus {
+    background-color: #D1FAE5 !important;
+    color: #10B981 !important;
+    border: none !important;
+}
+
+.apartmentbutt:focus .housesvg path {
+    fill: #10B981 !important;
+}
+
+.houseslide {
+    width: 1570px !important;
+}
+
+.p-houses {
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    color: #626687 !important;
+    margin-left: 35px !important;
+}
+
+.p-hdetail {
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    color: #1B1C57 !important;
+    margin-left: 35px !important;
+}
+
+.h6-dianne {
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    color: #0E1735 !important;
+}
+
+.p-manager {
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: #888B97 !important;
+}
+
+.contactbutt {
+    width: 163px !important;
+    height: 48px !important;
+    background-color: #10B981 !important;
+    border: none !important;
+    border-radius: 32px !important;
+    font-family: 'Lexend' !important; 
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    color: #fff !important;
+}
+
+.p-details2 {
+    font-family: 'Lexend' !important; 
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: #3C4563 !important;
+    margin-left: 35px !important;
+}
+
+.p-seeour {
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    color: #F59E0B !important;
+    text-align: center !important;
+}
+
+.h6-findout {
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 32px !important;
+    color: #1B1C57 !important;
+    text-align: center !important;
+}
+
+.indi {
+    box-sizing: content-box !important;
+}
+
+.indi2 {
+    transition: all .4s !important;
+    display: flex;
+    justify-content: center !important;
+    margin-top: 15px !important;
+}
+
+.indi2:focus {
+    background-color: #3C4563 !important;
+}
+
+.moreartikel {
+    width: 118px !important;
+    height: 46px !important;
+    background-color: #10B981 !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 32px !important;
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    transition: all .4s !important;
+}
+
+.moreartikel:hover {
+    background-color: #D1FAE5 !important;
+    color: #10B981 !important;
+    border: 3px dotted #10B981 !important;
+}
+
+.p-things {
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    color: #1B1C57 !important;
+}
+
+.p-time {
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    color: #888B97 !important;
+}
+
+.p-cameron {
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    color: #3C4563 !important;
+}
+
+.p-12 {
+    font-family: 'Lexend' !important;
+    font-style: normal !important; 
+    font-weight: 500 !important;
+    font-size: 24px !important;
+    color: #1B1C57 !important;
+}
+
+.p-wantto {
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    color: #626687 !important;
+}
+
+.subsdiv {
+    border: none !important;
+    border-radius: 32px !important;
+    background-image: url(../pics/Rectangle\ 24.png);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.h4-subscribe {
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 32px !important;
+    color: #1B1C57 !important;
+    margin-top: 65px !important;
+}
+
+.inputdiv {
+    width: 496px !important;
+    height: 54px !important;
+    background-color: #fff !important;
+    box-shadow: 0px 9px 32px rgba(89, 92, 219, 0.05) !important;
+    border-radius: 32px !important;
+}
+
+.emlinput {
+    width: 283px !important;
+    height: 22px !important;
+    background-color: transparent !important;
+    outline: none !important;
+    border: none !important;
+}
+
+.emlinput::placeholder {
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    color: #888B97 !important;
+}
+
+.subsbutt {
+    width: 129px !important;
+    height: 46px !important;
+    background-color: #10B981 !important;
+    border: none !important;
+    border-radius: 32px !important;
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    color: #fff !important;
+}
+
+.p-foot {
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 24px !important;
+    color: #626687 !important;
+    opacity: 0.75 !important;
+}
+
+.h4-property {
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    color: #0E1735 !important;
+}
+
+.a-house {
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    color: #888B97 !important;
+    text-decoration: none !important;
+}
+

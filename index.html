@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <title>Find your place</title>
+</head>
+<body>
+
+    <div class="w-100 h-100 position-relative" style="overflow-x: hidden !important;">
+
+        <img class="blurpic" src="./pics/Color Blur.png" alt="Color blur">
+        <img class="position-absolute frstpic" src="./pics/Img.png" alt="img" style="top: 0 !important; right: 0 !important;">
+        <img class="position-absolute" src="./pics/green blur.png" alt="blur" style="left: 0 !important; bottom: 935px !important; width: 500px !important; z-index: -1 !important;">
+        <img class="position-absolute" src="./pics/vectorgroup.png" alt="vectorgroup" style="right: 0 !important; top: 1550px !important; z-index: -1 !important; width: 640px !important;">
+
+        <nav class="navbar navbar-expand-lg pt-4">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="./pics/Logo.png" alt="Logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center gap-4">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#"><button class="lnktext" type="menu">About Us</button></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><button class="lnktext1" type="menu">Article</button></a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link lnktext2 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Property &nbsp;
+                    </a>
+                    <ul class="dropdown-menu menuback">
+                      <li><a class="dropdown-item lnktext3" href="#">Our Real Estate</a></li>
+                      <li><a class="dropdown-item lnktext3" href="#">Landlord`s Real Estate</a></li>
+                      <li><a class="dropdown-item lnktext3" href="#">For Rent</a></li>
+                      <li><a class="dropdown-item lnktext3" href="#">For Sale</a></li>
+                      <li><a class="dropdown-item lnktext3" href="#">Our Agents</a></li>
+                      <li><a class="dropdown-item lnktext3" href="#">Agents Ranking</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                        <button class="signup" type="button">Sign Up!</button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        
+        <div class="container-fluid pb-5">
+    
+            <div class="row pb-5">
+    
+                <div class="col-6 pt-5">
+    
+                    <div class="w-100 pt-5 ps-5 ms-5">
+    
+                        <h1 class="h1-find mt-5">Find The Place To<br>
+                          Live <span class="yourdrm">Your Dreams</span><br>
+                          Easily Here</h1>
+                        
+                        <p class="p-everything mt-3">Everything you need about finding your place to live will be here,<br>
+                           where it will be easier for you
+                        </p>
+
+                        <div class="searchbox mt-5">
+
+                          <img class="ms-3" src="./pics/loc.png" alt="loc">
+                          <input class="searchinp" type="search" name="search" placeholder="Search for the location you want!">
+                          <button class="searchbutt" type="button">Search&nbsp;&nbsp;<img src="./pics/arrow right.png" alt="arrow"></button>
+
+                        </div>
+
+                        <p class="p-partner mt-5">Our Partnership </p>
+
+                        <div class="partnerbox d-flex align-items-center justify-content-between mt-4" style="width: 427px !important;">
+
+                          <a href="https://www.traveloka.com/en-en/"><img src="./pics/traveloka_logo.png" alt="logo"></a>
+                          <a href="https://www.tiket.com/"><img src="./pics/traveloka_logo tiket.png" alt="logo"></a>
+                          <a href="https://www.airbnb.com/"><img src="./pics/traveloka_logo airbnb.png" alt="logo"></a>
+                          <a href="https://www.tripadvisor.com/"><img src="./pics/traveloka_logo trip.png" alt="logo"></a>
+
+                        </div>
+    
+                    </div>
+    
+                </div>
+
+                <div class="col-6">
+
+                  <div class="w-100 position-relative">
+
+                    <div class="w-100 crslbox">
+
+                      <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./pics/Frame 13.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./pics/Frame 13.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./pics/Frame 13.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev visually-hidden" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next visually-hidden" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+    
+            </div>
+    
+        </div>
+
+        <div class="container mt-5 pt-5">
+
+          <div class="row pb-5 mt-5 align-items-center">
+
+            <div class="col-4 mt-5">
+
+              <div class="w-100">
+
+                <p class="p-recomend"><img src="./pics/Rectangle 14.png" alt="14">&nbsp;Our Recommendation</p>
+                <h4 class="h4-featured">Featured House</h4>
+
+              </div>
+
+            </div>
+
+            <div class="col-6 mt-5">
+
+              <div class="gx-5">
+
+                <button class="housebutt ms-5" type="button"><svg class="housesvg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M21 10.8319V19.5C20.9998 19.7719 20.9262 20.0386 20.7868 20.272C20.6475 20.5054 20.4476 20.6968 20.2084 20.8259C19.9916 20.9432 19.7485 21.0031 19.5021 20.9999H14.9967C14.7978 20.9999 14.607 20.9209 14.4664 20.7803C14.3257 20.6396 14.2467 20.4488 14.2467 20.2499V15.7493C14.2467 15.5504 14.1677 15.3596 14.0271 15.2189C13.8864 15.0783 13.6956 14.9993 13.4967 14.9993H10.4967C10.2978 14.9993 10.107 15.0783 9.9664 15.2189C9.82574 15.3596 9.74673 15.5504 9.74673 15.7493V20.2499C9.74673 20.4488 9.66771 20.6396 9.52706 20.7803C9.3864 20.9209 9.19564 20.9999 8.99673 20.9999H4.5002C4.28754 21.0005 4.07723 20.9556 3.88335 20.8682C3.68948 20.7808 3.51651 20.653 3.37604 20.4934C3.12946 20.2082 2.99571 19.8427 3.00001 19.4657V10.8318C3.00017 10.6228 3.04392 10.4162 3.12846 10.225C3.21299 10.0339 3.33646 9.86251 3.49098 9.7218L10.9903 2.90308C11.2658 2.65075 11.6258 2.51078 11.9994 2.51074C12.3729 2.51071 12.733 2.65062 13.0085 2.90289L20.5091 9.72189C20.6636 9.86263 20.787 10.034 20.8716 10.2252C20.9561 10.4163 20.9998 10.6229 21 10.8319Z" fill="#888B97"/>
+                  </svg>
+                  House</button>
+
+                <button class="villabutt ms-4" type="button"><svg class="housesvg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7 21.0001H4C3.45 21.0001 3 20.5501 3 20.0001V8.69006C3 8.27006 3.25 7.90006 3.64 7.75006L14.64 3.52006C14.7921 3.46138 14.9561 3.44076 15.118 3.45999C15.2798 3.47921 15.4345 3.53771 15.5686 3.63038C15.7027 3.72305 15.8121 3.84708 15.8873 3.99169C15.9624 4.13629 16.0012 4.29708 16 4.46006V10.0001H8C7.45 10.0001 7 10.4501 7 11.0001V21.0001ZM17 12.0001H10C9.45 12.0001 9 12.4501 9 13.0001V20.0001C9 20.5501 9.45 21.0001 10 21.0001H14V17.0001C14 16.4501 14.45 16.0001 15 16.0001C15.55 16.0001 16 16.4501 16 17.0001V21.0001H20C20.55 21.0001 21 20.5501 21 20.0001V12.0001C21 10.9001 20.1 10.0001 19 10.0001C17.9 10.0001 17 10.9001 17 12.0001Z" fill="#888B97"/>
+                  </svg>
+                  &nbsp;Villa</button>
+
+                <button class="apartmentbutt ms-4" type="button"><svg class="housesvg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M17 11V5C17 3.9 16.1 3 15 3H9C7.9 3 7 3.9 7 5V7H5C3.9 7 3 7.9 3 9V19C3 20.1 3.9 21 5 21H11V17H13V21H19C20.1 21 21 20.1 21 19V13C21 11.9 20.1 11 19 11H17ZM7 19H5V17H7V19ZM7 15H5V13H7V15ZM7 11H5V9H7V11ZM11 15H9V13H11V15ZM11 11H9V9H11V11ZM11 7H9V5H11V7ZM15 15H13V13H15V15ZM15 11H13V9H15V11ZM15 7H13V5H15V7ZM19 19H17V17H19V19ZM19 15H17V13H19V15Z" fill="#888B97"/>
+                  </svg>
+                  &nbsp;Apartment</button>
+
+              </div>
+
+            </div>
+
+            <div class="col-2 mt-5">
+
+              <div class="position-relative">
+
+                <button class="carousel-control-prev position-absolute" style="right: 196px !important;" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"><img src="./pics/prev butt.png" alt="prev"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next position-absolute" style="right: 90px !important;" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"><img src="./pics/next butt.png" alt="next"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+        <div class="container-fluid">
+
+          <div class="position-relative">
+
+            <div class="position-absolute" style="right: -12px !important;">
+
+              <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./pics/House.png" class="d-block houseslide" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./pics/House.png" class="d-block houseslide" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./pics/House.png" class="d-block houseslide" alt="...">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <div class="container"> 
+
+          <div class="row pb-5">
+
+            <div class="col-6">
+
+              <div class="w-100">
+
+                <p class="p-recomend"><img src="./pics/Rectangle 14.png" alt="14">&nbsp;Ready to Sell!</p>
+                <h4 class="h4-featured">Let’s tour and see our house!</h4>
+                <p class="p-houses mt-4">Houses recommended by our partners that have been<br>
+                   curated to become the home of your dreams!
+                </p>
+
+                <p class="p-hdetail mt-4">House Detail</p>
+
+                <div class="d-flex">
+
+                  <div>
+
+                    <p class="p-details2"><img src="./pics/bed 1.png" alt="bed">&nbsp;&nbsp;4 Bedrooms</p>
+                    <p class="p-details2"><img src="./pics/car-garage 1.png" alt="car">&nbsp;&nbsp;1 Carport</p>
+
+                  </div>
+
+                  <div>
+
+                    <p class="p-details2"><img src="./pics/bath 1.png" alt="bath">&nbsp;&nbsp;2 Bathrooms</p>
+                    <p class="p-details2"><img src="./pics/stairs-with-handrail 1.png" alt="stairs">&nbsp;&nbsp;2 Floors</p>
+
+                  </div>
+
+                </div>
+
+                <div class="d-flex align-items-center">
+
+                  <img src="./pics/Ellipse 6.png" alt="6">
+
+                  <div>
+                    <h6 class="h6-dianne">Dianne Russell</h6>
+                    <p class="p-manager">Manager Director</p>
+                  </div>
+
+                  <button class="contactbutt mb-4 ms-5" type="button"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.38439 2.47919C8.90949 2.32087 9.47298 2.34717 9.98104 2.55371C10.4891 2.76026 10.9111 3.13459 11.1768 3.61439L11.2668 3.79319L12.06 5.55839C12.3011 6.09417 12.3793 6.689 12.285 7.26891C12.1907 7.84882 11.928 8.3882 11.5296 8.81999L11.3712 8.97839L10.1184 10.146C9.8928 10.3596 10.062 11.1864 10.8792 12.6C11.6124 13.872 12.2112 14.466 12.504 14.4984H12.5556L12.6192 14.4864L15.0792 13.734C15.4098 13.6326 15.7626 13.6286 16.0955 13.7224C16.4283 13.8163 16.727 14.004 16.956 14.2632L17.0664 14.4012L18.6936 16.6572C19.0129 17.0992 19.1721 17.6369 19.1451 18.1815C19.118 18.7261 18.9063 19.2453 18.5448 19.6536L18.3984 19.8048L17.7468 20.4216C17.1627 20.9747 16.4322 21.3485 15.6419 21.4984C14.8516 21.6484 14.0349 21.5683 13.2888 21.2676C10.9668 20.3316 8.85719 18.1932 6.94079 14.874C5.02079 11.5464 4.2228 8.64599 4.5792 6.16199C4.68715 5.41097 4.99653 4.70322 5.47446 4.11394C5.9524 3.52465 6.58104 3.07584 7.2936 2.81519L7.52519 2.73839L8.38439 2.47919Z" fill="white"/>
+                    </svg>
+                    Contact Now</button>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-6">
+
+              <div class="w-100 d-flex justify-content-end">
+
+                <img src="./pics/imghouses.png" alt="img">
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="container-fluid pb-5">
+
+          <div class="row pb-5">
+
+            <div class="col-12">
+
+              <div>
+
+                <div class="d-flex justify-content-center">
+                  <img src="./pics/Rectangle 14.png" alt="14">
+                </div>
+
+                <p class="p-seeour mt-1">See Our Review</p>
+                <h6 class="h6-findout">What Our User Say About Us</h6>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="pb-5">
+
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active indi" aria-current="true" aria-label="Slide 1"><img class="indi2" src="./pics/Ellipse 9.png" alt="9"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="indi" aria-label="Slide 2"><img class="indi2" src="./pics/Ellipse 9.png" alt="9"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="indi" aria-label="Slide 3"><img class="indi2" src="./pics/Ellipse 9.png" alt="9"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./pics/Review.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./pics/Review.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./pics/Review.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev visually-hidden" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next visually-hidden" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="container">
+
+          <div class="row pb-5">
+
+            <div class="col-12">
+
+              <div class="w-100">
+
+                <div class="w-100 d-flex justify-content-center">
+                  <img src="./pics/Rectangle 14.png" alt="14">
+                </div>
+                <p class="p-seeour mt-1">See tips and trick from our partnership</p>
+                <h6 class="h6-findout">Find out more about<br>
+                  selling and buying homes</h6>
+                  <div class="w-100 d-flex justify-content-center mt-4">
+                    <button class="moreartikel" type="button">More Artikel</button>
+                  </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="row pb-5">
+
+            <div class="col-6">
+
+              <div class="w-100">
+
+                <div class="row">
+
+                  <div class="col-6">
+
+                    <div class="w-100">
+
+                      <img class="w-100" src="./pics/sofa.png" alt="sofa">
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-6 ps-0">
+
+                    <div class="w-100">
+
+                      <h6 class="h6-dianne"><img style="width: 52px !important; height: 52px !important;" src="./pics/Ellipse 6.png" alt="6">&nbsp;Dianne Russell</h6>
+                      <p class="p-things ps-3 mt-4">The things we need to check when<br>
+                         we want to buy a house
+                      </p>
+                      <p class="p-time ps-3 mt-4"><img src="./pics/access-time.png" alt="time">&nbsp;4 min read | 25 Apr 2021</p>
+
+                    </div>
+
+                    
+
+                  </div>
+
+                  <div class="col-6 mt-4">
+
+                    <div class="w-100">
+
+                      <img class="w-100" src="./pics/house 22.png" alt="22">
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-6 ps-0 mt-4">
+
+                    <div class="w-100">
+
+                      <h6 class="h6-dianne"><img style="width: 52px !important; height: 52px !important;" src="./pics/Ellipse 61.png" alt="61">&nbsp;Courtney Henry</h6>
+                      <p class="p-things ps-3 mt-4">7 Ways to distinguish the quality<br>
+                         of the house we want to buy
+                      </p>
+                      <p class="p-time ps-3 mt-4"><img src="./pics/access-time.png" alt="time">&nbsp;6 min read | 24 Apr 2021</p>
+
+                    </div>
+
+                    
+
+                  </div>
+
+                  <div class="col-6 mt-4">
+
+                    <div class="w-100">
+
+                      <img class="w-100" src="./pics/house 221.png" alt="22">
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-6 ps-0 mt-4">
+
+                    <div class="w-100">
+
+                      <h6 class="h6-dianne"><img style="width: 52px !important; height: 52px !important;" src="./pics/Ellipse 62.png" alt="62">&nbsp;Darlene Robertson</h6>
+                      <p class="p-things ps-3 mt-4">The best way to know the quality<br>
+                         of the house we want to buy
+                      </p>
+                      <p class="p-time ps-3 mt-4"><img src="./pics/access-time.png" alt="time">&nbsp;2 min read | 24 Apr 2021</p>
+
+                    </div>
+
+                    
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-6">
+
+              <div class="w-100">
+
+                <img class="w-100" src="./pics/house23.png" alt="23">
+
+                <p class="p-cameron mt-5"><img src="./pics/Ellipse 65.png" alt="65">&nbsp;&nbsp;&nbsp;&nbsp;Cameron Williamson</p>
+
+                <p class="p-12">12 Things to know before buying a house</p>
+
+                <p class="p-wantto mt-4">Want to buy a house but are unsure about what we should know, here I will try to<br>
+                   explain what we should know and check when we want to buy a house
+                </p>
+
+                <p class="p-time mt-4"><img src="./pics/access-time.png" alt="time">&nbsp;8 min read | 25 Apr 2021</p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="container pt-5 pb-5">
+
+          <div class="row pb-5">
+
+            <div class="col-12">
+
+              <div class="w-100 subsdiv">
+
+                <div class="row pb-5">
+
+                  <div class="col-4">
+
+                    <div class="w-100 d-flex justify-content-center pt-4 ps-4">
+
+                      <div>
+
+                        <div>
+                          <img src="./pics/img1.png" alt="1">
+                        </div>
+  
+                        <div class="pt-2">
+                          <img src="./pics/img2.png" alt="2">
+                        </div>
+
+                      </div>
+
+                      <div class="ms-4">
+
+                        <div>
+                          <img src="./pics/img3.png" alt="1">
+                        </div>
+  
+                        <div class="ps-4 pt-3">
+                          <img src="./pics/img4.png" alt="2">
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-4">
+
+                    <div class="w-100">
+
+                      <h4 class="h4-subscribe">Subscribe For More Info<br>
+                        and update from Hounter</h4>
+
+                        <div class="inputdiv ps-3 d-flex align-items-center">
+
+                          <img src="./pics/inbox.png" alt="inbox">
+
+                          <input class="emlinput ms-4" type="email" placeholder="Your email here">
+
+                          <button class="subsbutt ms-3" type="button">Subsribe Now</button>
+
+                        </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-4">
+
+                    <div class="w-100 d-flex justify-content-center pt-4">
+
+                      <div class="ms-3">
+
+                        <div>
+                          <img src="./pics/img5.png" alt="1">
+                        </div>
+  
+                        <div class="pt-2">
+                          <img src="./pics/img6.png" alt="2">
+                        </div>
+
+                      </div>
+
+                      <div class="ms-5">
+
+                        <div>
+                          <img src="./pics/img7.png" alt="1">
+                        </div>
+  
+                        <div class="ps-4 pt-3">
+                          <img src="./pics/img8.png" alt="2">
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+        
+        <footer class="w-100 position-relative pt-5 mt-5">
+
+          <div class="container pt-5 pb-5">
+
+            <div class="row pb-5">
+
+              <div class="col-4">
+
+                <div class="w-100">
+
+                  <img src="./pics/Logo.png" alt="logo">
+
+                  <p class="p-foot mt-3">We provide information about properties such<br>
+                     as houses, villas and apartments to help people<br>
+                     find their dream home
+                  </p>
+
+                  <div class="socdiv">
+
+                    <a href="#"><img src="./pics/brandico_facebook.png" alt="FB"></a>
+                    <a class="ms-4" href="#"><img src="./pics/ant-design_twitter-outlined.png" alt="FB"></a>
+                    <a class="ms-3" href="#"><img src="./pics/ant-design_instagram-filled.png" alt="FB"></a>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="col-2 ps-4">
+
+                <h4 class="h4-property">Property</h4>
+
+                <div class="mt-3"><a class="a-house" href="#">House</a></div>
+                <div class="mt-3"><a class="a-house" href="#">Apartment</a></div>
+                  <div class="mt-3"><a class="a-house" href="#">Villa</a></div>
+
+
+
+              </div>
+
+              <div class="col-2 ps-4">
+
+                <h4 class="h4-property">Article</h4>
+
+                <div class="mt-3"><a class="a-house" href="#">New Article</a></div>
+                <div class="mt-3"><a class="a-house" href="#">Popular Article</a></div>
+                <div class="mt-3"><a class="a-house" href="#">Most Read</a></div>
+                <div class="mt-3"><a class="a-house" href="#">Tips & Tricks</a></div>
+
+              </div>
+
+              <div class="col-4 ps-5">
+
+                <h4 class="h4-property">Contact</h4>
+
+                <div class="mt-3"><a class="a-house" href="#">2464 Royal Ln. Mesa, New Jersey 45463</a></div>
+                <div class="mt-3"><a class="a-house" href="#">(671) 555-0110</a></div>
+                <div class="mt-3"><a class="a-house" href="#">info@hounter.com</a></div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <img class="position-absolute" src="./pics/last blur.png" alt="blur" style="bottom: 0px !important; right: 0px !important; z-index: -1 !important; overflow: hidden !important; width: 980px !important;">
+
+        </footer>
+
+    </div>
+
+</body>
+</html>
