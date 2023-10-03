@@ -396,6 +396,14 @@ body {
     color: #0E1735 !important;
 }
 
+.h6-dianne1 {
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    color: #0E1735 !important;
+}
+
 .p-manager {
     font-family: 'Lexend' !important;
     font-style: normal !important;
@@ -485,6 +493,8 @@ body {
     font-weight: 500 !important;
     font-size: 18px !important;
     color: #1B1C57 !important;
+    margin-top: 30px;
+    padding-left: 22px;
 }
 
 .p-time {
@@ -493,6 +503,7 @@ body {
     font-weight: 400 !important;
     font-size: 14px !important;
     color: #888B97 !important;
+    margin-top: 30px;
 }
 
 .p-cameron {
@@ -600,3 +611,64 @@ body {
     text-decoration: none !important;
 }
 
+.smallicon {
+    width: 52px !important; 
+    height: 52px !important;
+}
+
+.contactdiv {
+    padding-left: 48px;
+}
+
+@media screen and (max-width: 768px) {
+    .frstpic {
+        z-index: -2 !important;
+    }
+
+    .searchbox {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+    .blurpic2 {
+        z-index: -2 !important;
+    }
+
+    .h4-featured {
+        margin-left: 0 !important;
+    }
+    .p-houses {
+        margin-left: 0 !important;
+    }
+
+    .h6-dianne {
+        font-size: 15px !important;
+        margin: 0 !important;
+    }
+
+    .h6-dianne1 {
+        font-size: 14px !important;
+        margin: 0 !important;
+    }
+
+    .p-things {
+        font-size: 13px !important;
+        margin: 0 !important;
+        margin-top: 0 !important;
+    }
+    .smallicon {
+        width: 32px !important;
+        height: 32px !important;
+        margin-left: 10px !important;
+    }
+    .p-time {
+        margin: 0 !important;
+        font-size: 12px !important;
+    }
+    .mar {
+        margin-top: 15px !important;
+    }
+    .contactdiv {
+        padding: 0 !important;
+        padding-left: 25px !important;
+    }
+}

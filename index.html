@@ -13,10 +13,10 @@
 
     <div class="w-100 h-100 position-relative" style="overflow-x: hidden !important;">
 
-        <img class="blurpic" src="./pics/Color Blur.png" alt="Color blur">
+        <img class="blurpic d-none d-md-block" src="./pics/Color Blur.png" alt="Color blur">
         <img class="position-absolute frstpic" src="./pics/Img.png" alt="img" style="top: 0 !important; right: 0 !important;">
         <img class="position-absolute" src="./pics/green blur.png" alt="blur" style="left: 0 !important; bottom: 935px !important; width: 500px !important; z-index: -1 !important;">
-        <img class="position-absolute" src="./pics/vectorgroup.png" alt="vectorgroup" style="right: 0 !important; top: 1550px !important; z-index: -1 !important; width: 640px !important;">
+        <img class="position-absolute blurpic2" src="./pics/vectorgroup.png" alt="vectorgroup" style="right: 0 !important; top: 1550px !important; z-index: -1 !important; width: 640px !important;">
 
         <nav class="navbar navbar-expand-lg pt-4">
             <div class="container">
@@ -57,7 +57,7 @@
     
             <div class="row pb-5">
     
-                <div class="col-6 pt-5">
+                <div class="col-6 d-none d-md-block pt-5">
     
                     <div class="w-100 pt-5 ps-5 ms-5">
     
@@ -92,7 +92,42 @@
     
                 </div>
 
-                <div class="col-6">
+                <div class="col-12 d-block d-md-none pt-5">
+    
+                  <div class="w-100">
+  
+                      <h1 class="h1-find mt-5">Find The Place To<br>
+                        Live <span class="yourdrm">Your Dreams</span><br>
+                        Easily Here</h1>
+                      
+                      <p class="p-everything mt-3">Everything you need about finding your place to live will be here,<br>
+                         where it will be easier for you
+                      </p>
+
+                      <div class="searchbox mt-5">
+
+                        <img class="ms-3" src="./pics/loc.png" alt="loc">
+                        <input class="searchinp" type="search" name="search" placeholder="Search for the location you want!">
+                        <button class="searchbutt" type="button">Search&nbsp;&nbsp;<img src="./pics/arrow right.png" alt="arrow"></button>
+
+                      </div>
+
+                      <p class="p-partner mt-5">Our Partnership </p>
+
+                      <div class="w-100 d-flex align-items-center justify-content-between mt-2 pb-3">
+
+                        <a href="https://www.traveloka.com/en-en/"><img src="./pics/traveloka_logo.png" alt="logo"></a>
+                        <a href="https://www.tiket.com/"><img src="./pics/traveloka_logo tiket.png" alt="logo"></a>
+                        <a href="https://www.airbnb.com/"><img src="./pics/traveloka_logo airbnb.png" alt="logo"></a>
+                        <a href="https://www.tripadvisor.com/"><img src="./pics/traveloka_logo trip.png" alt="logo"></a>
+
+                      </div>
+  
+                  </div>
+  
+              </div>
+
+                <div class="col-6 d-none d-md-block">
 
                   <div class="w-100 position-relative">
 
@@ -134,7 +169,7 @@
 
           <div class="row pb-5 mt-5 align-items-center">
 
-            <div class="col-4 mt-5">
+            <div class="col-md-4 col-12 mt-5">
 
               <div class="w-100">
 
@@ -145,7 +180,7 @@
 
             </div>
 
-            <div class="col-6 mt-5">
+            <div class="col-6 d-none d-md-block mt-5">
 
               <div class="gx-5">
 
@@ -168,7 +203,34 @@
 
             </div>
 
-            <div class="col-2 mt-5">
+            <div class="col-12 d-block d-md-none mt-5">
+
+              <div class="d-flex">
+
+                <button class="housebutt ms-4" type="button"><svg class="housesvg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M21 10.8319V19.5C20.9998 19.7719 20.9262 20.0386 20.7868 20.272C20.6475 20.5054 20.4476 20.6968 20.2084 20.8259C19.9916 20.9432 19.7485 21.0031 19.5021 20.9999H14.9967C14.7978 20.9999 14.607 20.9209 14.4664 20.7803C14.3257 20.6396 14.2467 20.4488 14.2467 20.2499V15.7493C14.2467 15.5504 14.1677 15.3596 14.0271 15.2189C13.8864 15.0783 13.6956 14.9993 13.4967 14.9993H10.4967C10.2978 14.9993 10.107 15.0783 9.9664 15.2189C9.82574 15.3596 9.74673 15.5504 9.74673 15.7493V20.2499C9.74673 20.4488 9.66771 20.6396 9.52706 20.7803C9.3864 20.9209 9.19564 20.9999 8.99673 20.9999H4.5002C4.28754 21.0005 4.07723 20.9556 3.88335 20.8682C3.68948 20.7808 3.51651 20.653 3.37604 20.4934C3.12946 20.2082 2.99571 19.8427 3.00001 19.4657V10.8318C3.00017 10.6228 3.04392 10.4162 3.12846 10.225C3.21299 10.0339 3.33646 9.86251 3.49098 9.7218L10.9903 2.90308C11.2658 2.65075 11.6258 2.51078 11.9994 2.51074C12.3729 2.51071 12.733 2.65062 13.0085 2.90289L20.5091 9.72189C20.6636 9.86263 20.787 10.034 20.8716 10.2252C20.9561 10.4163 20.9998 10.6229 21 10.8319Z" fill="#888B97"/>
+                  </svg>
+                  House</button>
+
+                <button class="villabutt ms-3" type="button"><svg class="housesvg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7 21.0001H4C3.45 21.0001 3 20.5501 3 20.0001V8.69006C3 8.27006 3.25 7.90006 3.64 7.75006L14.64 3.52006C14.7921 3.46138 14.9561 3.44076 15.118 3.45999C15.2798 3.47921 15.4345 3.53771 15.5686 3.63038C15.7027 3.72305 15.8121 3.84708 15.8873 3.99169C15.9624 4.13629 16.0012 4.29708 16 4.46006V10.0001H8C7.45 10.0001 7 10.4501 7 11.0001V21.0001ZM17 12.0001H10C9.45 12.0001 9 12.4501 9 13.0001V20.0001C9 20.5501 9.45 21.0001 10 21.0001H14V17.0001C14 16.4501 14.45 16.0001 15 16.0001C15.55 16.0001 16 16.4501 16 17.0001V21.0001H20C20.55 21.0001 21 20.5501 21 20.0001V12.0001C21 10.9001 20.1 10.0001 19 10.0001C17.9 10.0001 17 10.9001 17 12.0001Z" fill="#888B97"/>
+                  </svg>
+                  &nbsp;Villa</button>
+
+              </div>
+
+              <div class="w-100 ps-4">
+
+                <button class="apartmentbutt ms-5 mt-2" type="button"><svg class="housesvg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M17 11V5C17 3.9 16.1 3 15 3H9C7.9 3 7 3.9 7 5V7H5C3.9 7 3 7.9 3 9V19C3 20.1 3.9 21 5 21H11V17H13V21H19C20.1 21 21 20.1 21 19V13C21 11.9 20.1 11 19 11H17ZM7 19H5V17H7V19ZM7 15H5V13H7V15ZM7 11H5V9H7V11ZM11 15H9V13H11V15ZM11 11H9V9H11V11ZM11 7H9V5H11V7ZM15 15H13V13H15V15ZM15 11H13V9H15V11ZM15 7H13V5H15V7ZM19 19H17V17H19V19ZM19 15H17V13H19V15Z" fill="#888B97"/>
+                  </svg>
+                  &nbsp;Apartment</button>
+
+              </div>
+
+            </div>
+
+            <div class="col-2 d-none d-md-block mt-5">
 
               <div class="position-relative">
 
@@ -190,7 +252,7 @@
 
         </div>
 
-        <div class="container-fluid">
+        <div class="container-fluid d-none d-md-block">
 
           <div class="position-relative">
 
@@ -216,13 +278,13 @@
 
         </div>
 
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block"><br class="d-none d-md-block">
 
         <div class="container"> 
 
           <div class="row pb-5">
 
-            <div class="col-6">
+            <div class="col-md-6 col-12">
 
               <div class="w-100">
 
@@ -272,11 +334,11 @@
 
             </div>
 
-            <div class="col-6">
+            <div class="col-md-6 col-12">
 
               <div class="w-100 d-flex justify-content-end">
 
-                <img src="./pics/imghouses.png" alt="img">
+                <img class="w-100" src="./pics/imghouses.png" alt="img">
 
               </div>
 
@@ -366,7 +428,7 @@
 
           <div class="row pb-5">
 
-            <div class="col-6">
+            <div class="col-md-6 col-12">
 
               <div class="w-100">
 
@@ -374,9 +436,9 @@
 
                   <div class="col-6">
 
-                    <div class="w-100">
+                    <div class="w-100 h-100">
 
-                      <img class="w-100" src="./pics/sofa.png" alt="sofa">
+                      <img class="w-100 h-100" src="./pics/sofa.png" alt="sofa">
 
                     </div>
 
@@ -386,11 +448,11 @@
 
                     <div class="w-100">
 
-                      <h6 class="h6-dianne"><img style="width: 52px !important; height: 52px !important;" src="./pics/Ellipse 6.png" alt="6">&nbsp;Dianne Russell</h6>
-                      <p class="p-things ps-3 mt-4">The things we need to check when<br>
+                      <h6 class="h6-dianne"><img class="smallicon" src="./pics/Ellipse 6.png" alt="6">&nbsp;Dianne Russell</h6>
+                      <p class="p-things">The things we need to check when<br>
                          we want to buy a house
                       </p>
-                      <p class="p-time ps-3 mt-4"><img src="./pics/access-time.png" alt="time">&nbsp;4 min read | 25 Apr 2021</p>
+                      <p class="p-time ps-3"><img src="./pics/access-time.png" alt="time">&nbsp;4 min read | 25 Apr 2021</p>
 
                     </div>
 
@@ -400,9 +462,9 @@
 
                   <div class="col-6 mt-4">
 
-                    <div class="w-100">
+                    <div class="w-100 h-100">
 
-                      <img class="w-100" src="./pics/house 22.png" alt="22">
+                      <img class="w-100 h-100" src="./pics/house 22.png" alt="22">
 
                     </div>
 
@@ -412,11 +474,11 @@
 
                     <div class="w-100">
 
-                      <h6 class="h6-dianne"><img style="width: 52px !important; height: 52px !important;" src="./pics/Ellipse 61.png" alt="61">&nbsp;Courtney Henry</h6>
-                      <p class="p-things ps-3 mt-4">7 Ways to distinguish the quality<br>
+                      <h6 class="h6-dianne"><img class="smallicon" src="./pics/Ellipse 61.png" alt="61">&nbsp;Courtney Henry</h6>
+                      <p class="p-things">7 Ways to distinguish the quality<br>
                          of the house we want to buy
                       </p>
-                      <p class="p-time ps-3 mt-4"><img src="./pics/access-time.png" alt="time">&nbsp;6 min read | 24 Apr 2021</p>
+                      <p class="p-time ps-3"><img src="./pics/access-time.png" alt="time">&nbsp;6 min read | 24 Apr 2021</p>
 
                     </div>
 
@@ -426,9 +488,9 @@
 
                   <div class="col-6 mt-4">
 
-                    <div class="w-100">
+                    <div class="w-100 h-100">
 
-                      <img class="w-100" src="./pics/house 221.png" alt="22">
+                      <img class="w-100 h-100" src="./pics/house 221.png" alt="22">
 
                     </div>
 
@@ -438,11 +500,11 @@
 
                     <div class="w-100">
 
-                      <h6 class="h6-dianne"><img style="width: 52px !important; height: 52px !important;" src="./pics/Ellipse 62.png" alt="62">&nbsp;Darlene Robertson</h6>
-                      <p class="p-things ps-3 mt-4">The best way to know the quality<br>
+                      <h6 class="h6-dianne1"><img class="smallicon" src="./pics/Ellipse 62.png" alt="62">&nbsp;Darlene Robertson</h6>
+                      <p class="p-things ps-3">The best way to know the quality<br>
                          of the house we want to buy
                       </p>
-                      <p class="p-time ps-3 mt-4"><img src="./pics/access-time.png" alt="time">&nbsp;2 min read | 24 Apr 2021</p>
+                      <p class="p-time ps-3"><img src="./pics/access-time.png" alt="time">&nbsp;2 min read | 24 Apr 2021</p>
 
                     </div>
 
@@ -456,7 +518,7 @@
 
             </div>
 
-            <div class="col-6">
+            <div class="col-md-6 col-12 mar">
 
               <div class="w-100">
 
@@ -480,7 +542,7 @@
 
         </div>
 
-        <div class="container pt-5 pb-5">
+        <div class="container pt-5 pb-5 d-none d-md-block">
 
           <div class="row pb-5">
 
@@ -591,7 +653,7 @@
 
             <div class="row pb-5">
 
-              <div class="col-4">
+              <div class="col-md-4 col-12 pb-3">
 
                 <div class="w-100">
 
@@ -614,7 +676,7 @@
 
               </div>
 
-              <div class="col-2 ps-4">
+              <div class="col-md-2 col-6 ps-4">
 
                 <h4 class="h4-property">Property</h4>
 
@@ -626,7 +688,7 @@
 
               </div>
 
-              <div class="col-2 ps-4">
+              <div class="col-md-2 col-6 ps-4">
 
                 <h4 class="h4-property">Article</h4>
 
@@ -637,7 +699,7 @@
 
               </div>
 
-              <div class="col-4 ps-5">
+              <div class="col-md-4 col-12 contactdiv">
 
                 <h4 class="h4-property">Contact</h4>
 
